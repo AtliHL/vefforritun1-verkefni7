@@ -50,10 +50,10 @@ function start() {
 */
 function play() {
     const random = randomNumber(1,100);
+    var fjöldiGiska = 0;
     var spila = true;
     while(spila == true) {
         console.log(random);
-        var fjöldiGiska = 0;
         var input = prompt("Giskaðu á tölu sem er á milli 0 og 100");
         if(input == null){
             break;
